@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const PORT = 8080;
 
-// Middleware obligatorio para poder leer el cuerpo (req.body) en peticiones POST
 app.use(express.json());
 
 const clientes = [
